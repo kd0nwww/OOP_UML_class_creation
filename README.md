@@ -1,9 +1,29 @@
 ## Welcome to my repository 😁
 
-It contains files related to OOP.
-We have 4 files inside:
+It contains files related to OOP.<br>
+4 files are composing the structure:<br>
 
-[File containing class](smartphone.py) 
-[File used to test the class](main.py) 
-[UML diagram](UML_diagram.png) 
-And this README file
+[File containing class](smartphone.py)<br>
+[File used to test the class](main.py)<br>
+[UML diagram](UML_diagram.png)<br>
+And this README file<br>
+
+### Some information about Smartphone class
+**Arguments: data types**
+- brand : str
+- model : str
+- os : str
+- year : int
+- color : str
+- screen_size : float
+- CPU : string
+- storage : int
+- RAM : int
+
+**Methods**
+- display_info() : print all information about the object
+- take_picture() : method that is related to smartphone
+- record_video() : method that is related to smartphone
+
+> [!TIP]
+> To test class functionality just go to main.py
