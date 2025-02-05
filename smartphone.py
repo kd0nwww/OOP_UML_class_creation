@@ -16,17 +16,16 @@ class Smartphone:
         print(f"OS: {self.os}")
         print(f"Year: {self.year}")
         print(f"Color: {self.color}")
-        print(f"Screen size: {self.screen_size}")
+        print(f"Screen size: {self.screen_size} inches")
         print(f"CPU: {self.CPU}")
-        print(f"Storage: {self.storage}")
-        print(f"RAM: {self.RAM}")
+        print(f"Storage: {self.storage} GB")
+        print(f"RAM: {self.RAM} GB")
 
     def take_picture(self):
         print(f"{self.brand} {self.model} is taking the picture.")
 
-    def make_call(self):
+    def record_video(self):
         print(f"{self.brand} {self.model} is recording the video.")
 
-r = Smartphone(brand="Apple", model="Iphone 16")
-r.take_picture()
-r.display_info()
+##def main():
+##
