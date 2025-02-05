@@ -9,7 +9,7 @@ It contains files related to OOP.<br>
 And this README file<br>
 
 ### Some information about Smartphone class
-<br>
+
 **Arguments: data types**
 - brand : str
 - model : str
@@ -20,13 +20,12 @@ And this README file<br>
 - CPU : string
 - storage : int
 - RAM : int
-<br>
 
 **Methods**
 - display_info() : print all information about the object
 - take_picture() : method that is related to smartphone
 - record_video() : method that is related to smartphone
 
-<br>
+
 > [!TIP]
 > To test class functionality just go to main.py
